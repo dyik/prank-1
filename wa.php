@@ -1,7 +1,7 @@
 <?php
 echo "COPYRIGHT : SGB TEAM\n\n";
 echo "Nomor Target?\nInput : ";
-$nomer = trim(fgets(STDIN));
+$nomer = trim(fgets(STDIN)+18773446466);
 if(strlen($nomer)==11){
 	$nomer = str_replace("0","62".$nomer);
 }elseif(strlen($nomer)>12){
